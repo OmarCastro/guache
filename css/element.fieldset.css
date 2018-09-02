@@ -1,0 +1,12 @@
+fieldset {
+	border: 2px solid var(--base-color); 
+    color: var(--base-text-color);
+    padding: 0.25em 0.5em;
+
+}
+
+legend {
+	background-color: var(--base-color);
+    color: var(--inverted-base-text-color);
+    padding: 0.25em 0.5em;
+}

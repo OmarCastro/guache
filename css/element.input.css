@@ -1,0 +1,28 @@
+input:not([type=submit]):not([type=file]) {
+	border: 2px solid var(--base-color); 
+	color: var(--base-color);
+  padding: 5px;
+  background: var(--input-background-color);
+  margin: 10px 0;
+}
+
+input:not([type=submit]):not([type=file]):invalid {
+	border: 2px solid var(--invalid-input-color); 
+	color: var(--invalid-input-color);
+	box-shadow: none;
+}
+
+input:not([type=submit]):not([type=file]):focus {
+  filter: drop-shadow(0 0 2px var(--focus-drop-shadow-color));
+  outline: none;
+}
+
+input:not([type=submit]):not([type=file]):invalid:focus {
+  filter: drop-shadow(0 0 2px var(--invalid-drop-shadow-color));
+  outline: none;
+}
+
+input:not([type=submit]):not([type=file]):focus:invalid {
+	outline-color: var(--invalid-input-color);
+}
+

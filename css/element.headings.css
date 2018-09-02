@@ -1,0 +1,31 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--heading-font-family);
+  color: var(--base-text-color);
+  color: var(--heading-text-color);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: var(--h1-text-color);
+}
+h2 {
+  font-size: 2.4em;
+  color: var(--h2-text-color);
+}
+h3 {
+  font-size: 1.8em;
+  color: var(--h3-text-color);
+}
+h4 {
+  font-size: 1.4em;
+  color: var(--h4-text-color);
+}
+h5 {
+  font-size: 1.3em;
+  color: var(--h5-text-color);
+}
+h6 {
+  font-size: 1.15em;
+  color: var(--h6-text-color);
+}

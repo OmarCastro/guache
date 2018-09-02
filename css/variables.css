@@ -1,0 +1,31 @@
+:root {
+	--background-color: #DDDDDD;
+	--base-color: #528C9E;
+	--base-text-color: #222222;
+	--inverted-base-text-color: #DDDDDD;
+  --heading-text-color: var(--base-text-color);
+
+  --invalid-input-color: #EE1C2F;
+  --input-background-color: rgba(255,255,255,0.5);
+  
+  --base-font-family: "Open Sans", Arial, sans-serif;
+  --heading-font-family: "Open Sans", Arial, sans-serif;
+  --monospace-font-family: "Monospace", sans-serif;
+
+
+
+  --button-background: var(--base-color);
+  --button-foreground: var(--inverted-base-text-color);
+  --button-press-filter: brightness(90%);
+
+  --focus-drop-shadow-color: #0099AB;
+  --invalid-drop-shadow-color: #EE1C2F;
+
+  --h1-text-color: var(--heading-text-color);
+  --h2-text-color: var(--heading-text-color);
+  --h3-text-color: var(--heading-text-color);
+  --h4-text-color: var(--heading-text-color);
+  --h5-text-color: var(--heading-text-color);
+  --h6-text-color: var(--heading-text-color);
+
+}

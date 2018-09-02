@@ -1,0 +1,35 @@
+button {
+	border: 1px solid var(--base-color); 
+	color: var(--button-foreground);
+  padding: 0.375em 0.75em;
+	background: var(--button-background);
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+	color: var(--base-color);
+	background: var(--inverted-base-text-color);
+}
+
+button:focus {
+  filter: drop-shadow(0 0 2px var(--focus-drop-shadow-color));
+  outline: none;
+
+}
+
+button:active:focus {
+  filter: var(--button-press-filter) drop-shadow(0 0 2px var(--focus-drop-shadow-color));
+}
+
+button:active {
+  filter: var(--button-press-filter);
+}
+
+
+button::-moz-focus-inner {
+  border: 0;
+}
+

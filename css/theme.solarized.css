@@ -1,0 +1,80 @@
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+/*
+$base03 =  #002b36
+$base02 =  #073642
+$base01 =  #586e75
+$base00 =  #657b83
+$base0 =   #839496
+$base1 =   #93a1a1
+$base2 =   #eee8d5
+$base3 =   #fdf6e3
+
+$yellow =  #b58900 
+$orange =  #cb4b16 
+$red =     #dc322f 
+$magenta = #d33682 
+$violet =  #6c71c4 
+$blue =    #268bd2 
+$cyan =    #2aa198 
+$green =   #859900 
+
+if $solarized is dark
+  $fg =      $base0
+  $bg =      $base03
+  $hl =      $base02
+  $emph =    $base1
+  $comment = $base01
+else
+  $fg =      $base00
+  $bg =      $base3
+  $hl =      $base2
+  $emph =    $base01
+$comment = $base1
+
+
+*/
+html.theme-solarized, html.theme-solarized-dark {
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0:  #839496;
+  --base1:  #93a1a1;
+  --base2:  #eee8d5;
+  --base3:  #fdf6e3;
+
+  --yellow: #b58900; 
+  --orange: #cb4b16; 
+  --red:    #dc322f; 
+  --magenta:#d33682; 
+  --violet: #6c71c4; 
+  --blue:   #268bd2; 
+  --cyan:   #2aa198; 
+  --green:  #859900; 
+}
+
+html.theme-solarized {
+    
+	--background-color: var(--base3);
+	--base-color: var(--base01);
+	--base-text-color: var(--base00);
+	--inverted-base-text-color: var(--base3);
+
+	--invalid-input-color: var(--red);
+  --input-background-color: rgb(245,245,245);
+
+	--base-font-family: 'PT Sans', sans-serif;
+  --monospace-font-family: 'Inconsolata', sans-serif;
+  --heading-font-family: 'PT Sans Narrow', sans-serif;
+
+  --heading-text-color: var(--green);
+  --h1-text-color: var(--magenta);
+
+  --focus-drop-shadow-color: var(--blue);
+  --invalid-drop-shadow-color: var(--red);
+}
+
