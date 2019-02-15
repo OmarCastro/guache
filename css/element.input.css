@@ -26,3 +26,24 @@ input:not([type=submit]):not([type=file]):focus:invalid {
 	outline-color: var(--invalid-input-color);
 }
 
+input[type=checkbox] { 
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=checkbox]:after {
+  padding: 0px;
+  top: 1px;
+  height: 0.6em;
+  width: 0.6em;
+  text-align: center;
+  line-height: 0.6em;
+  font-style: normal;
+  font-weight: normal;
+  content: "\00a0";
+  display:block;
+}
+input[type=checkbox]:checked:after {
+  content: "\2714";
+}
