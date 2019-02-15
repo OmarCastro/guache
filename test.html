@@ -11,35 +11,37 @@
   <h2>Inputs</h2>
 
   <div>
-  	<h3>Input text</p>
+  	<h3>Input text</h3>
   	<input type="text" name="text">
   </div>
 
   <div>
-  	<h3>Input number</p>
+  	<h3>Input number</h3>
   	<input type="number" name="number">
   </div>
 
 
   <div>
-  	<h3>Input date timr local</p>
+  	<h3>Input date time local</h3>
   	<input type="datetime-local" name="datetime">
   </div>
 
 
   <div>
-  	<h3>Input telephone</p>
+  	<h3>Input telephone</h3>
   	<input type="tel" name="telephone">
   </div>
 
   <div>
-  	<h3>Button</p>
+  	<h3>Button</h3>
   	<button>Click me!</button>
   </div>
 
   <br>
 
   <div>
+      <h3>Radio Button</h3>
+
     <fieldset>
       <legend>Choose your favorite monster</legend>
 
@@ -52,6 +54,26 @@
       <input type="radio" id="mothman" name="monster">
       <label for="mothman">Mothman</label>
   	</fieldset>
+  </div>
+
+
+   <div>
+
+      <h3>Checkboxes</h3>
+
+
+    <fieldset>
+      <legend>Choose your favorite games</legend>
+
+      <input type="checkbox" id="checkers" name="games">
+      <label for="checkers">Checkers</label><br/>
+
+      <input type="checkbox" id="chess" name="games">
+      <label for="chess">Chess</label><br/>
+
+      <input type="checkbox" id="go" name="games">
+      <label for="go">Go</label>
+    </fieldset>
   </div>
 
   <div>
@@ -86,4 +108,8 @@
   </div>
 
 </body>
+<script>
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+  ':35729/livereload.js?snipver=1"></' + 'script>')
+</script> 
 </html>
