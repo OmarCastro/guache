@@ -37,7 +37,7 @@ $comment = $base1
 
 
 */
-html.theme-solarized, html.theme-solarized-dark {
+.theme-solarized, .theme-solarized-dark {
   --base03: #002b36;
   --base02: #073642;
   --base01: #586e75;
@@ -57,7 +57,7 @@ html.theme-solarized, html.theme-solarized-dark {
   --green:  #859900; 
 }
 
-html.theme-solarized {
+.theme-solarized {
     
 	--background-color: var(--base3);
 	--base-color: var(--base01);
@@ -65,7 +65,7 @@ html.theme-solarized {
 	--inverted-base-text-color: var(--base3);
 
 	--invalid-input-color: var(--red);
-  --input-background-color: rgb(245,245,245);
+  --input-background-color: var(--base3);
 
 	--base-font-family: 'PT Sans', sans-serif;
   --monospace-font-family: 'Inconsolata', sans-serif;
@@ -78,3 +78,22 @@ html.theme-solarized {
   --invalid-drop-shadow-color: var(--red);
 }
 
+.theme-solarized-dark {
+  --background-color: var(--base03);
+  --base-color: var(--base1);
+  --base-text-color: var(--base0);
+  --inverted-base-text-color: var(--base03);
+
+  --invalid-input-color: var(--magenta);
+  --input-background-color: var(--base03);
+
+  --base-font-family: 'PT Sans', sans-serif;
+  --monospace-font-family: 'Inconsolata', sans-serif;
+  --heading-font-family: 'PT Sans Narrow', sans-serif;
+
+  --heading-text-color: var(--green);
+  --h1-text-color: var(--magenta);
+
+  --focus-drop-shadow-color: var(--green);
+  --invalid-drop-shadow-color: var(--magenta);
+}
